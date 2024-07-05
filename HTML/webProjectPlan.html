@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RapInTrip</title>
+    <link rel="icon" href="../img/logosfondobiancoRapInTrip.jpg" type="image/png">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Custom CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/my-style.css">
+</head>
+<body>
+
+<header class="bg-dark py-3">
+    <div class="container d-flex justify-content-center">
+        <a href="../index.html">
+            <img src="../img/LOGO.senzasfondo.PNG" alt="Logo" style="max-height: 50px;">
+        </a>
+        <div class="text-center">
+            <h1 style="color: white;">RapInTrip</h1>
+        </div>
+    </div>
+</header>
+
+
+<div class="container-fluid">
+    <div class="row">
+        <!-- Sidebar -->
+        <nav id="sidebar" class="col-md-3 bg-dark text-light">
+            <div class="sidebar-header">
+                <h3>Indice</h3>
+            </div>
+            <ul class="list-unstyled components">
+                <li>
+                    <a href="#section-1"><h4>1. Brief</h4></a>
+                    <ul class="list-unstyled">
+                        <li><a href="#section-1.1">1.1 Finalità e obiettivi del progetto</a></li>
+                        <li><a href="#section-1.2">1.2 Pubblico di riferimento</a></li>
+                        <li><a href="#section-1.3">1.3 Accesso alla risorsa</a></li>
+                        <li><a href="#section-1.4">1.4 Contenuti</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#section-2"><h4>2. Benchmark</h4></a>
+                    <ul class="list-unstyled">
+                        <li><a href="#section-2.1">2.1 Analisi di mercato</a></li>
+                        <li><a href="#section-2.2">2.2 Siti esistenti</a></li>
+                        <ul class="list-unstyled">
+                            <li><a href="#section-2.2.1">2.2.1 Giant Bomb</a></li>
+                            <li><a href="#section-2.2.2">2.2.2 AllMusic</a></li>
+                        </ul>
+                    </ul>
+                </li>
+                <li><a href="#section-3"><h4>3. Struttura</h4></a></li>
+                <ul class="list-unstyled">
+                    <li><a href="#section-3.1">3.1 Mappa concettuale</a></li>
+                    <li><a href="#section-3.2">3.2 Albero delle dipendenze</a></li>
+                    <li><a href="#section-3.3">3.3 Descrizione item "Maestri del flow"</a></li>
+                </ul>
+                <li><a href="#section-4"><h4>4. Wireframes</h4></a></li>
+                <ul class="list-unstyled">
+                    <li><a href="#section-4.1">4.1 Wireframes</a></li>
+                    <li><a href="#section-4.2">4.2 Homepage</a></li>
+                    <li><a href="#section-4.3">4.3 "Maestri del flow"</a></li>
+                    <li><a href="#section-4.4">4.4 -Artisti</a></li>
+                </ul>
+                <li><a href="#section-5"><h4>5. Usabilità</h4></a></li>
+                <ul class="list-unstyled">
+                    <li><a href="#section-5.1">5.1 Architettura</a></li>
+                    <li><a href="#section-5.2">5.2 Aspetto e tipografia</a></li>
+                    <li><a href="#section-5.3">5.3 Colori, icone e font</a></li>
+                </ul>
+                <li><a href="#section-6"><h4>6. Servizi</h4></a></li>
+                <ul class="list-unstyled">
+                    <li><a href="#section-6.1">6.1 Browsing</a></li>
+                    <li><a href="#section-6.2">6.2 Interazione</a></li>
+                    <li><a href="#section-6.3">6.3 Sviluppi futuri</a></li>
+                </ul>
+            </ul>
+        </nav>
+
+
+
+        <!-- Page Content -->
+        <section class="py-5">
+            <div id="content" class="col-md-9">
+                <h1 class="text-center">Web Project Plan</h1>
+
+                <section id="section-1">
+                    <h2>1. Brief</h2>
+                    <section id="section-1.1">
+                        <h3>1.1 Finalità e obiettivi del progetto</h3>
+                        <p>Il progetto mira a creare una risorsa interattiva e multimediale che esplora la storia del rap italiano,
+                            offrendo una panoramica approfondita e interdisciplinare delle trasformazioni culturali e artistiche nel
+                            panorama musicale urbano. L'obiettivo è fornire agli utenti una piattaforma completa e coinvolgente per
+                            esplorare la storia del rap in Italia attraverso testi, immagini, video e altre risorse.
+                            Il progetto coinvolge attivamente gli utenti, offrendo la possibilità di suggerire articoli e
+                            condividere opinioni per approfondire la comprensione della cultura hip-hop italiana.</p>
+                    </section>
+
+                    <section id="section-1.2">
+                        <h3>1.2 Pubblico di riferimento</h3>
+                        <p>Il sito è dedicato agli appassionati di musica rap, studenti, studiosi,
+                            professionisti del settore culturale e tutti coloro che sono interessati a
+                            esplorare l'evoluzione del rap italiano.
+                            <br>La natura provocatoria del progetto si
+                            rivolge principalmente a persone aperte di mente e interessate a superare i taboo culturali.</p>
+                    </section>
+
+                    <section id="section-1.3">
+                        <h3>1.3 Accesso alla risorsa</h3>
+                        <p>La risorsa sarà accessibile tramite un sito web dedicato, con la possibilità di creare un account per accedere a
+                            contenuti premium e funzionalità avanzate come comprare merch o suggerire e scrivere articoli da pubblicare.
+                            <br>Sarà inoltre disponibile una versione ottimizzata per dispositivi mobili. </p>
+                    </section>
+
+                    <section id="section-1.4">
+                        <h3>1.4 Contenuti</h3>
+                        <section id="section-1.4.1">
+                            <h4>1.4.1 Nel prototipo</h4>
+                            <p>Il prototipo includerà un compendio di testi e immagini che documentano le varie fasi della storia del rap italiano.
+                                <br>I contenuti saranno organizzati per categorie tematiche, tra cui l'evoluzione degli artisti e dei brani presenti nei loro album,
+                                caratterizzata
+                                dalle influenze culturali e sociali, nonchè dalle innovazioni nel panorama musicale urbano. Ogni fase storica
+                                del rap italiano sarà contestualizzata per offrire una visione approfondita.
+
+                            </p>
+                        </section>
+
+                        <section id="section-1.4.2">
+                            <h4>1.4.2 Sviluppi futuri</h4>
+                            <p>Nei prossimi sviluppi, il progetto mira ad ampliare la base di contenuti, includendo analisi approfondite su
+                                artisti e brani specifici, interviste esclusive, podcast tematici e la creazione di una comunità online.
+                                <br>Gli utenti registrati potranno suggerire e scrivere articoli, che saranno sottoposti a revisione prima
+                                della pubblicazione.
+                                <br>Ulteriori funzionalità includono la disponibilità diretta di contenuti musicali
+                                tramite link a piattaforme di streaming e la vendita di merchandising come magliette, vinili e cd per consolidare la community.
+
+                            </p>
+                        </section>
+                    </section>
+                </section>
+
+                <section id="section-2">
+                    <h2>2. Benchmark</h2>
+                    <section id="section-2.1">
+                        <h3>2.1 Analisi di mercato</h3>
+                        <p>
+                            Non sembrano esistere dei siti Internet con un fine come il mio, anche se ci sono diversi articoli/blog dove si parla di come è
+                            nato il rap in italia, ma un Sito che parla anche nello specifico di ogni rapper di ogni fase storica non esiste.
+                            <br><br>Come struttura il sito prende molti elementi da Blog e da enciclopedie online come Wikipedia.
+                        </p>
+                    </section>
+                    <section id="section-2.2">
+                        <h3>2.2 Siti esistenti</h3>
+                        <p>
+                            Un sito con una struttura simile, soprattutto nell'ambito della pubblicazione di articoli dalla parte degli utenti (anche se in un ambito diverso, quello dei videogiochi),
+                            si chiama “giantbomb.com”.
+                            Nel sito è molto forte la componente “community” infatti mira soprattutto a creare una solida comunità che contribuisce
+                            attivamente ai forum e al wiki.
+                            <br>
+                            <br/>Un sito invece con una finalità simile è "AllMusic". Questo sito è una risorsa completa per la musica di tutto il mondo, con recensioni,
+                            biografie di artisti, e informazioni su album e brani di ogni genere.
+                        </p>
+                    </section>
+                    <section id="section-2.2.1">
+                        <h4>2.2.1 Giant Bomb</h4>
+                        <p>
+                            Giant Bomb è un sito web dedicato ai videogiochi, fondato nel 2008 da Jeff Gerstmann e Ryan Davis. Il sito è noto per
+                            il suo approccio unico, che enfatizza personalità, contenuti e opinioni forti. Offre inoltre una vasta
+                            gamma di contenuti, tra cui:
+
+                            <br/>-Recensioni: Analisi dettagliate dei videogiochi.
+                            <br/>-Video: Comprendono "Quick Looks," "Unfinished," "Endurance Runs," e live streams.
+                            <br/>-Podcast: Il "Giant Bombcast" e il "Giant Beastcast" con discussioni settimanali su giochi e notizie.
+                            <br/>-Wiki: Un database creato dagli utenti con informazioni su giochi e personaggi.
+                            <br/>-Notizie: Aggiornamenti su eventi e nuovi rilasci nell'industria dei videogiochi.
+
+                            <br/>La comunità è molto attiva, contribuendo ai forum e al wiki. Il sito monetizza attraverso abbonamenti premium e pubblicità.
+                            Giant Bomb si distingue per il suo contenuto diversificato e il coinvolgimento della comunità, continuando a evolversi con
+                            l'industria dei videogiochi.
+
+                        </p>
+                    </section>
+                    <section id="section-2.2.2">
+
+                        <h4>2.2.2 AllMusic</h4>
+                        <p>
+                            AllMusic è una risorsa online completa per gli appassionati di musica,
+                            fondata nel 1991.
+                            <br>Offre dettagli su artisti, album, generi musicali e canzoni,
+                            con biografie, discografie, recensioni da critici esperti, descrizioni di generi, e
+                            articoli editoriali.
+                            <br>L'interfaccia è intuitiva e facile da usare, con la maggior
+                            parte dei contenuti accessibili gratuitamente, sebbene ci siano opzioni di
+                            abbonamento per funzionalità avanzate e la rimozione delle pubblicità.
+                            <br>Punti di
+                            forza includono il database completo, la qualità delle recensioni e la varietà di contenuti,
+                            mentre i contro sono la presenza di pubblicità nella versione gratuita e un'interfaccia
+                            che potrebbe essere migliorata. AllMusic è ideale per chi vuole esplorare e scoprire la musica.
+                        </p>
+                    </section>
+                </section>
+
+                <section id="section-3">
+                    <h3>3. Struttura</h3>
+                    <section id="section-3.1">
+                        <h4>3.1 Mappa concettuale</h4>
+                        <p>
+                            <img src="../img/Mappa concettuale-1.jpg" style="max-height: 700px">
+                        </p>
+                    </section>
+                    <section id="section-3.2">
+                        <h4>3.2 Albero delle dipendenze</h4>
+                        <p>
+                            <img src="../img/AlberoDipe.jpg" style="max-height: 500px">
+                        </p>
+                    </section>
+                    <section id="section-3.3">
+                        <h4>3.3 Descrizione item "Maestri del flow"</h4>
+                        <ul>
+                            <li>Titolo Articolo (DC)</li>
+                            <ul>
+                                <li>Nome Artista</li>
+                            </ul>
+                            <li>Autore Articolo (DC)</li>
+                            <ul>
+                                <li>Nome Autore</li>
+                            </ul>
+                            <li>Categoria (DC)</li>
+                            <ul>
+                                <li>Artisti</li>
+                            </ul>
+
+                            <li>Descrizione (DC)</li>
+                            <ul>
+                                <li>
+                                    Descrizione Artista</li>
+                            </ul>
+                            <li>Bibliografia (DC)</li>
+                            <ul>
+                                <li>Fonti</li>
+                            </ul>
+                            <li>Diritti di autore (DC)</li>
+                            <ul>
+                                <li>Copyright</li>
+                            </ul>
+                            <li>Data (DC)</li>
+                            <ul>
+                                <li>Data di pubblicazione articolo</li>
+                            </ul>
+                            <li>Paese di produzione (DC)</li>
+                            <ul>
+                                <li>Italy</li>
+                            </ul>
+                            <li>Accessibilità Lingua (DC)</li>
+                            <ul>
+                                <li>Lingua Originale: Italiano</li>
+                                <li>Lingua Articolo: Italiano</li>
+                            </ul>
+                        </ul>
+                    </section>
+                </section>
+                <section id="section-4">
+                    <h3>4. Struttura</h3>
+                    <section id="section-4.1">
+                        <h4>4.1 Wireframes</h4>
+                        <p>
+                            <img src="../img/wire1.jpg" style="max-height: 800px">
+                            <img src="../img/wiref2.jpg" style="max-height: 700px">
+                        </p>
+                    </section>
+                    <section id="section-4.2">
+                        <h4>4.2 Homepage</h4>
+                        <p>In ogni pagina è presente la stessa navbar. La homepage non fa eccezioni, infatti è presente:</p>
+                        <ul>
+                            <li>
+                                •	La navbar con, burgermenu a sinistra, il logo con il titolo subito dopo e sulla destra
+                                il button dedicato al login.
+                            </li>
+                            <li>
+                                •	Una section introduttiva con il benvenuto, una breve introduzione al sito e una celebre frase rap che fa
+                                una lode alla musica, vedendola come musa ispiratrice (riferendosi soprattutto alla musica rap) .
+                                Inoltre è presente anche la search bar principale.
+                            </li>
+                            <li>
+                                •	Una section che contiene la section hero. Dentro la section hero è presente un carousel
+                                che mostra alcuni artisti protagonisti della scena rap italiana.
+                            </li>
+                            <li>
+                                •	La terza section è dedicata a spiegare meglio il sito attraverso le FAQ.
+                            </li>
+
+                        </ul>
+                    </section>
+                    <section id="section-4.3">
+                        <h4>4.3  "Maestri del flow"</h4>
+                        <p>
+                             "Maestri del flow" è l’item del progetto.
+                            <br>È formato da due parti principali, ovvero l’articolo e la descrizione dell' artista in questione.
+                            <br>Subito sotto la navbar troviamo le “briciole di pane” adatte per tornare alle sezioni precedenti, come il catalogo (Artisti) e la home;
+                            quindi, per tornare alla home ho multiple scelte, ovvero cliccando il logo, il titolo oppure dal “breadcrumbs”.
+                            <br> "Maestri del flow" ha l’immagine del rapper e subito notiamo sotto il titolo e la breve descrizione i button dedicati ai social.
+                            <br>La sezione dedicata al corpo dell’articolo è sotto all’immagine, invece sulla destra troviamo delle card dedicate agli
+                            articoli più letti che altre persone hanno potuto cercare.
+                            <br>Infine troviamo la sezione commenti.
+
+                        </p>
+                    </section>
+                    <section id="section-4.4">
+                        <h4>4.4 -Artisti</h4>
+                        <p>
+                            Anche qui sono presenti le “briciole di pane”.
+                            <br>I vari articoli sono mostrati attraverso una collezione
+                            di card (prese e modificate dal template sul sito di Bootstrap).
+                            <br>Sulla sinistra è presente una card che permette all’utente di filtrare a seconda del periodo
+                            o attraverso una parola chiave.
+                            <br>Inoltre permette di ordinare i risultati per ordine cronologico e per ordine
+                            alfabetico (Filtri di ricerca).
+                            <br>È presente pagination perché si prevede una quantità molto grande di articoli dato che gli stessi possono
+                            essere anche scritti dagli utenti, e visualizzarli tutti insieme in una sola pagina sarebbe caotico e poco pratico.
+                            <br> La paginazione aiuta quindi a organizzare meglio i contenuti, migliorando l'esperienza utente.
+                        </p>
+                    </section>
+                </section>
+                <section id="section-5">
+                    <h3>5. Usabilità</h3>
+                    <section id="section-5.1">
+                        <h4>5.1 Architettura</h4>
+                        <p>
+                            Sono stati attuati diversi accorgimenti per poter rendere l'usabilità semplice, intuitiva ed efficace per tutti.
+
+                            <br>Abbiamo un burgermenu che apre una barra laterale
+                            in alto a sinistra come nella maggior
+                            parte dei siti per mobile e l'opzione di login posizionata in alto a destra.
+                            <br>Le card del catalogo "Artisti" hanno tutte
+                            una dimensione per le immagini, in modo da garantire un aspetto uniforme e prevenire deformazioni
+                            eccessive.
+                            <br>Con diversi metodi di navigazione disponibili, l'utente può sempre trovare facilmente ciò che sta
+                            cercando.
+                            <br>Inoltre, sono stati inseriti vari accessi intuitivi alla homepage per facilitare ulteriormente
+                            l'esperienza utente.
+                        </p>
+                    </section>
+                    <section id="section-5.2">
+                        <h4>5.2 Aspetto e tipografia</h4>
+                        <p>
+                            Il design è minimalista e privo di eccessive decorazioni, anche per garantire una navigazione più semplice e per rimanere più impresso nella mente di chi usufruisce del sito.
+                            Il testo è chiaro e leggibile, con paragrafi brevi
+                            e concisi nella homepage.
+                            <br>La homepage è priva di immagini, ad eccezione del logo in alto, e ad eccezione del
+                            carousel che contiene le immagini di alcuni dei rapper della Scena italiana.
+                            <br>Inoltre ogni pulsante è reattivo al passaggio del mouse,
+                            migliorando l'interattività dell'interfaccia.
+                        </p>
+                    </section>
+                    <section id="section-5.3">
+                        <h4>5.3 Colori, icone e font</h4>
+                        <p>
+                            Ho scelto il nero e l'arancione  come colori principali per il sito per diversi motivi.
+                            <br/>
+                            <br/><b>Estetica e Contrasto</b>
+                            <br/>-Contrasto Visivo: Il nero e l'arancione creano un contrasto forte e vibrante, rendendo il sito visivamente accattivante e facile da leggere.
+                            <br/>-Moderno e Elegante: Il nero è spesso associato a un'estetica moderna e sofisticata, mentre l'arancione aggiunge un tocco di energia e vivacità.
+                            <br/><b>Simbolismo e Emozioni</b>
+                            <br/>-Nero: Simboleggia il potere, la formalità, l'eleganza e il mistero. È un colore spesso associato al mondo del rap, che può essere percepito come ribelle e forte.
+                            <br/>-Arancione: Simboleggia energia, creatività, e entusiasmo. Può trasmettere la passione e l'energia tipica della musica rap.
+                            <br/><strong>Riferimenti Culturali</strong>
+                            <br/>-Street Style: Il nero è un colore predominante nella moda streetwear, molto popolare nella cultura rap. È spesso utilizzato per esprimere un senso di stile urbano.
+                            <br/>-Influenza Hip Hop: L’arancione può essere utilizzato per richiamare i colori vibranti e l'arte di strada che sono parti integranti della cultura hip hop.
+                            <br/>
+
+                            <br/>Il logo è stato ideato da me con l'ausilio dell'intelligenza artificiale; l'idea è quella di richiamare il concetto del nome del sito "RapInTrip", Rap in viaggio, più precisamente per l'Italia e alla scoperta del Rap.
+                            Cosi ho pensato ad un camper, il quale è un mezzo iconico per i lunghi viaggi esplorativi.
+                            Per le icone (login, condivisione, mi piace) e per il font ho usato bootstrap e fontawesome, come consigliato su w3school.
+                        </p>
+                    </section>
+                </section>
+
+                <section id="section-6">
+                    <h3>6. Servizi</h3>
+                    <section id="section-6.1">
+                        <h4>6.1 Browsing</h4>
+                        <p>
+                            Nelle pagine del Sito sono presenti diversi strumenti di browsing, come:
+                        </p>
+                        <ul>
+                            <li>Search bar nella section hero della home page</li>
+                            <li>Search bar dentro la navbar</li>
+                            <li>Breadcrumbs</li>
+                            <li>Carousel con i nuovi articoli</li>
+                            <li>Card 'Le persone hanno cercato anche' nella pagina dedicata all'item</li>
+                        </ul>
+                    </section>
+                    <section id="section-6.2">
+                        <h4>6.2 Interazione</h4>
+                        <p>
+                            Nell'item "Descrizione dell'artista" sono presenti i button per la condivisione e per i "mi piace".
+                           <br>Inoltre è presente la sezione "commenti" per poter
+                            commentare.
+                        </p>
+                    </section>
+                    <section id="section-6.3">
+                        <h4>6.3 Sviluppi futuri</h4>
+                        <p>
+                            Si potrebbe implementare la possibilità di ascoltare qualche brano dell' artista scelto, e quella di creare
+                            una raccolta di brani consigliati dagli utenti per poi poter aggiungere quelli più richiesti
+                            in una Playlist (Spotify,Apple music...) propria del sito.
+                            <br>Avendo più risorse si potrebbero utilizzare algoritmi di raccomandazione per suggerire agli
+                            utenti artisti Rap della scena italiana basati sui loro interessi e sulle loro interazioni passate con il sito,
+                            offrendo un'esperienza personalizzata e coinvolgente.
+                            <br>Essendo poi la community importante per il progetto sarebbe giusto aggiungere una pagina dedicata
+                            al forum e alla discussione.
+                            <br>
+                            <br> Inoltre, andrebbe sviluppata l'integrazione con i social media, per cercare di arrivare a quanta più gente possibile
+                            creando un profilo Instagram o X (Twitter) dove poter postare qualche descrizione dei Rapper, o pubblicando delle stories che chiedano ai nostri seguaci
+                            di quale Rapper vorrebbero un approfondimento.
+                            <br> Si può anche creare un profilo TikTok dove mettere dei brevi video d'impatto riguardante la vita di qualche artista specifico.
+                        </p>
+                    </section>
+                </section>
+
+                <section id="section-7">
+                    <h3>7. Bibliografia</h3>
+                    <ul>
+                        <li>
+                            Bootstrap.com
+                        </li>
+                        <li>
+                            Wikipedia
+                        </li>
+                        <li>
+                            W3School.com
+                        </li>
+                        Martina Dello Buono, slide per il laboratorio del corso di Informatica Umanistica, a.a. 2022-2023
+                        <li>
+                            Angelo Di Iorio, slide del corso di Tecnologie Web, a.a. 2023-2024
+                        </li>
+                        <li>
+                            Francesca Tomasi, slide del corso di Informatica Umanistica, a.a. 2023-2024
+                        </li>
+                        <li>
+                            IDE: IntelliJ IDEA
+                        </li>
+                    </ul>
+                </section>
+
+
+            </div>
+        </section>
+
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="footer bg-dark text-white py-4">
+    <div class="container">
+        <div class="footer-social text-center">
+            <p>Seguici sui social</p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tiktok" viewBox="0 0 16 16">
+                <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-spotify" viewBox="0 0 16 16">
+                <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0m3.669 11.538a.5.5 0 0 1-.686.165c-1.879-1.147-4.243-1.407-7.028-.77a.499.499 0 0 1-.222-.973c3.048-.696 5.662-.397 7.77.892a.5.5 0 0 1 .166.686m.979-2.178a.624.624 0 0 1-.858.205c-2.15-1.321-5.428-1.704-7.972-.932a.625.625 0 0 1-.362-1.194c2.905-.881 6.517-.454 8.986 1.063a.624.624 0 0 1 .206.858m.084-2.268C10.154 5.56 5.9 5.419 3.438 6.166a.748.748 0 1 1-.434-1.432c2.825-.857 7.523-.692 10.492 1.07a.747.747 0 1 1-.764 1.288"/>
+            </svg>
+        </div>
+
+        <div class="post-footer-mobile text-center">
+            <p>Alessandro Tallarico a.a. 2023&#47;2024</p>
+            <p>Licenza Creative Commons</p>
+            <p> <a href="HTML/webProjectPlan.html" class="text-light">Web Project Plan</a></p>
+        </div>
+    </div>
+</footer>
+
+<!-- Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
